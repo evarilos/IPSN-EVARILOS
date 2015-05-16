@@ -3,7 +3,7 @@ TKN.IPSN = TKN.IPSN || {};
 
 TKN.IPSN.ranking = {
     config: {
-        updateInterval: 200000,
+        updateInterval: 5000,
         databases: [
             {label: 'Manual', url: 'http://ebp.evarilos.eu:5005/evarilos/metrics/v1.0/database/IPSN_results_manual/experiment'},
             {label: 'Robot', url: 'http://ebp.evarilos.eu:5005/evarilos/metrics/v1.0/database/IPSN_results_robot/experiment'}
